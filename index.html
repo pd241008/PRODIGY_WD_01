@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShoeMania - Step into Style</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utils.css">
+</head>
+
+<body class='overflow-x-hidden'>
+    <div class="container mx-auto">
+        <header>
+            <nav class="flex justify-between">
+                <div class="logo font-bold flex items-center text-blue">ShoeMania</div>
+                <ul class="navbar flex items-center">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#collection">Collection</a></li>
+                    <button class="btn contact-us-btn" onclick="contactUsClicked()">Contact Us</button>
+                    <li><button class="btn shop-now-btn" onclick="shopNowClicked()">Shop Now</button></li>
+                </ul>
+            </nav>
+            <hr>
+        </header>
+        <main class="min-h-screen">
+            <section id="home" class="section1">
+                <div class="flex">
+                    <div class="topleft flex flex-col justify-center px-2">
+                        <div class=" text-center">
+                            <img class="shoeimg" src="shoe.jpg" alt="ShoeMania Shoes">
+                        </div>
+                        <h1 class="my-1 text-center">Step into Style with ShoeMania</h1>
+                        <p class=" text-center">Discover the latest trends in footwear. Walk with confidence and style. Our shoes are designed for comfort and fashion.</p>
+                        <div class="buttons">
+                            <button class="btn shop-now-btn" onclick="shopNowClicked()">Shop Now</button>
+                            <button class="btn contact-us-btn" onclick="contactUsClicked()">Contact Us</button>
+                        </div>
+                    </div>
+                    <div class="topright flex justify-center">
+                        <img class="shoeboximg" src="shoe_box.jpg" alt="ShoeMania Shoe Box">
+                    </div>
+                </div>
+            </section>
+            <hr>
+            <section id="about" class="section2">
+                <h1 class="text-center my-2">Explore Our Collection</h1>
+                <p class="my-2">Choose from a wide range of stylish and comfortable shoes. From casual to formal, we have it all.</p>
+                <div class="boxes flex justify-center">
+                    <div class="box">
+                        <h2>Casual</h2>
+                        <ul>
+                            <li class="highlighted">Starting at ₹599.99</li>
+                            <li>Comfortable and Trendy</li>
+                            <li>Various Colors and Styles</li>
+                           
+                            <button class="btn shop-now-btn" onclick="shopNowClicked()">Shop Now</button>
+                        </ul>
+                    </div>
+                    <div class="box">
+                        <h2>Formal</h2>
+                        <ul>
+                            <li class="highlighted">Starting at ₹699.99</li>
+                            <li>Elegant and Classy</li>
+                            <li>Perfect for Business and Events</li>
+                            
+                            <button class="btn shop-now-btn" onclick="shopNowClicked()">Shop Now</button>
+                        </ul>
+                    </div>
+                    <div class="box">
+                        <h2>Sports</h2>
+                        <ul>
+                            <li class="highlighted">Starting at ₹799.99</li>
+                            <li>Performance and Style</li>
+                            <li>For Your Active Lifestyle</li>
+                            
+                            <button class="btn shop-now-btn" onclick="shopNowClicked()">Shop Now</button>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <hr>
+            <section id="collection" class="section3">
+                <h1 class="text-center my-2">Why Choose ShoeMania?</h1>
+                <div class="container plantable">
+                    <table class="table text-center">
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th>Comfort</th>
+                                <th>Style</th>
+                                <th>Durability</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row" class="text-start">Casual</th>
+                                <td>✔</td>
+                                <td>✔</td>
+                                <td>✔</td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="text-start">Formal</th>
+                                <td>✔</td>
+                                <td>✔</td>
+                                <td>✔</td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="text-start">Sports</th>
+                                <td>✔</td>
+                                <td>✔</td>
+                                <td>✔</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+            <hr>
+            <section id="contact" class="section4">
+            </section>
+        </main>
+        <footer>
+            Copyright &copy; ShoeMania.com | All rights reserved
+        </footer>
+    </div>
+
+
+
+    <script src="timer.js"></script>
+</body>
+
+</html>
